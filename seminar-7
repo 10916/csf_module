@@ -1,0 +1,6 @@
+myFinalMarks = {'CSF': 75, 'FunPro': 80, 'WT': 85}
+def averageMark():
+    result = (myFinalMarks['CSF'] + myFinalMarks['FunPro'] + myFinalMarks['WT'])/len(myFinalMarks)
+    print(result)
+
+averageMark()
